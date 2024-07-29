@@ -1,0 +1,13 @@
+
+
+.brands {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .brands img {
+    max-height: 50px;
+  }
+  

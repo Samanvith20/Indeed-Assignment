@@ -1,0 +1,23 @@
+
+
+.curated-picks {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .curated-picks div {
+    text-align: center;
+    width: 22%;
+  }
+  
+  .curated-picks h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .curated-picks button {
+    margin-top: 10px;
+  }
+  

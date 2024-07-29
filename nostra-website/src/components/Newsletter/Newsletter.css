@@ -1,0 +1,43 @@
+.newsletter-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .newsletter-heading {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-subheading {
+    font-size: 26px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .newsletter-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 5px;
+    width: 200px; 
+  }
+  
+  .newsletter-input, .newsletter-button {
+    border-radius: 10px; /* Adjust the value to control the curve */
+  }
+  
+  
+  .newsletter-disclaimer {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .underline-link {
+    text-decoration: underline;
+  }

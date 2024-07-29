@@ -1,0 +1,15 @@
+/* Banner.css */
+
+.banner {
+    position: relative;
+    background: url('../../../public/banner-image.jpg.png') no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    /* width: 800px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+ 

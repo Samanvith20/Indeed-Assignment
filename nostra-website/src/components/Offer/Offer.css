@@ -1,0 +1,27 @@
+/* Offer.css */
+
+.offer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .offer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .offer button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .offer button:hover {
+    background-color: #ddd;
+  }
+  
