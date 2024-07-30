@@ -1,23 +1,30 @@
 
 
+.title h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 45px;
+}
+
 .curated-picks {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 20px;
-    border-bottom: 1px solid #eee;
-  }
-  
-  .curated-picks div {
-    text-align: center;
-    width: 22%;
-  }
-  
-  .curated-picks h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .curated-picks button {
-    margin-top: 10px;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px; 
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.curated-item {
+  position: relative;
+  width: 100%;
+  max-width: 380px; 
+  overflow: hidden;
+  border-radius: 8px; 
+}
+
+.curated-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+

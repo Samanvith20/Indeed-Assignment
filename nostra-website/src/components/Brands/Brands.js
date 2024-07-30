@@ -10,6 +10,10 @@ import brand7 from './brand7.png';
 import brand8 from './brand8.png';
 
 const Brands = () => (
+  <>
+  <div className='title'>
+    <h1>Brands</h1>
+  </div>
   <section className="brands">
     <img src={brand1} alt="Brand 1" />
     <img src={brand2} alt="Brand 2" />
@@ -20,6 +24,7 @@ const Brands = () => (
     <img src={brand7} alt="Brand 7" />
     <img src={brand8} alt="Brand 8" />
   </section>
+  </>
 );
 
 export default Brands;

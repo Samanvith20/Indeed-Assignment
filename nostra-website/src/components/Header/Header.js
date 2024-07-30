@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-
+import { FaSearch, FaShoppingCart, FaUser } from 'react-icons/fa';
 const Header = () => (
   <header className="header">
     <div className="header-top">
@@ -14,12 +14,16 @@ const Header = () => (
         <a href="#">New arrival</a>
         <a href="#">Brands</a>
       </nav>
+      
       <div className="header-actions">
-        <input type="text" placeholder="Search" />
-        <a href="#">Cart</a>
-        <a href="#">Account</a>
-      </div>
-    </div>
+                <FaSearch className="search-icon" />
+                <input type="text" placeholder="Search" className="search-input" />
+                <div className="icons">
+                    <FaShoppingCart className="icon" />
+                    <FaUser className="icon" />
+                </div>
+            </div>
+            </div>
   </header>
 );
 

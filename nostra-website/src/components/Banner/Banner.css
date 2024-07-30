@@ -1,15 +1,13 @@
-/* Banner.css */
-
 .banner {
-    position: relative;
-    background: url('../../../public/banner-image.jpg.png') no-repeat center center;
-    background-size: cover;
-    height: 800px;
-    /* width: 800px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-  }
-  
- 
+  position: relative;
+  background: url('../../../public/banner-image.jpg.png') no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  margin: 30px 50px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 20px; /* Adjust the radius as needed */
+  overflow: hidden; /* Ensures that the content inside the banner follows the rounded corners */
+}

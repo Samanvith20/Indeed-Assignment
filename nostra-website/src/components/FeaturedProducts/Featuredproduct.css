@@ -3,6 +3,13 @@
 .featured-products {
     padding: 40px 20px;
   }
+
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 10px;
+  }
   
   .featured-products div {
     text-align: center;
@@ -11,6 +18,7 @@
     margin-right: 1.5%;
     margin-bottom: 20px;
     vertical-align: top;
+    margin-left: 40px;
   }
   
   .featured-products div:last-child {

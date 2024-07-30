@@ -1,25 +1,34 @@
 import React from 'react';
 import './CuratedPicks.css';
+import image1 from "./image1.png"
+import image2 from "./image2.png"
+import image3 from "./image3.png"
+import image4 from "./image4.png"
 
 const CuratedPicks = () => (
-  <section className="curated-picks"> 
-
-    <div>
-      <h3>Best Seller</h3>
+  <>
+    <div className='title'>
+      <h1>Curated Picks</h1>
+    </div>
+    <section className="curated-picks">
+      <div className="curated-item">
+        <img src={image1} alt="Best Seller" />
+       
+      </div>
+      <div className="curated-item">
+        <img src={image2} alt="Shop Men" />
+       
+      </div>
+      <div className="curated-item">
+        <img src={image3} alt="Shop Women" />
+        
+      </div>
+      <div className="curated-item">
+        <img src={image4} alt="Shop Casual" />
       
-    </div>
-    <div>
-        <h3>Shop men</h3>
-    </div>
-    <div>
-      <h3>Shop Women</h3>
-      
-    </div>
-    <div>
-      <h3>Shop Casual</h3>
-      
-    </div>
-  </section>
+      </div>
+    </section>
+  </>
 );
 
 export default CuratedPicks;

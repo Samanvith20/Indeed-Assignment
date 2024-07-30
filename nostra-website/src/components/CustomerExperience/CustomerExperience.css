@@ -1,0 +1,58 @@
+.customer-experience-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.customer-experience-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.customer-experience-section .subheading {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #a0a0a0;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  flex: 1;
+  min-width: 220px;
+  max-width: 250px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+.feature-item .icon {
+  font-size: 36px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.feature-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.feature-item p {
+  font-size: 14px;
+  color: #666666;
+}

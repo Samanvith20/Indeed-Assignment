@@ -1,13 +1,16 @@
-
+.title {
+  font-size: 40px; 
+  font-weight: bold;
+  margin-top: 50px; 
+  
+}
 
 .brands {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-  }
-  
-  .brands img {
-    max-height: 50px;
-  }
-  
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0; 
+}
+
+.brands img {
+  max-height: 120px; 
+}
